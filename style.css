@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  width: 100wh;
+  min-height: 100vh;
+  background-image: url("/images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.first-section {
+  padding: 123px 32px 60px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  color: #4c545c;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.522px;
+  margin-top: 64px;
+}
+.text {
+  color: #9eabb2;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  margin-top: 16px;
+}
+.button-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  gap: 24px;
+}
+
+.button {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  border-radius: 28px;
+  padding: 13px 50px 13px 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.ios {
+  background: #26bba4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5),
+    0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.mac {
+  background: #6174ff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1),
+    0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.second-header {
+  margin-top: 160px;
+  color: #4c545c;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.522px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 32px 168px 32px;
+  gap: 56px;
+}
+
+.description-div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 48px;
+}
+.desc-header {
+  color: #4c545c;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.391px;
+}
+.inside {
+  display: flex;
+  flex-direction: column;
+}
+
+.thirth-section {
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-image {
+  margin-top: 64px;
+  width: 311px;
+  height: 182px;
+}
+
+.scnd-header {
+  margin-top: 130px;
+}
+.first-description {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.dsc-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.logo-descr {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 57px;
+}
+.dsc-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-header {
+  margin-top: 170px;
+}
+.second-btn {
+  margin-top: 46px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 52px 111px 52px 111px;
+  opacity: 0.7;
+  background: #9eabb2;
+  gap: 50px;
+  margin-top: 170px;
+}
+
+.footer-img {
+  width: 55px;
+  height: 55px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 40px;
+  column-gap: 20px;
+}
+.footer-text {
+  color: black;
+  margin: 0;
+  cursor: pointer;
+}
+
+.footer-text:hover {
+  color: #26bba4;
+}
+
+.icons-div {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.footer-first-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon:hover path {
+  cursor: pointer;
+  fill: #26bba4;
+}
+@media (min-width: 1440px) {
+  body {
+    background-image: url("/images/bg-header-desktop.png");
+  }
+  .header {
+    font-size: 46px;
+    margin-top: 56px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .button-div {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .second-section {
+    padding: 80px 260px 150px 0px;
+    flex-direction: row;
+    gap: 110px;
+  }
+  .img {
+    width: 752px;
+    height: 572px;
+    margin-left: -30px;
+  }
+  .desc-header {
+    text-align: left;
+  }
+  .desktop-text {
+    text-align: left;
+  }
+  .thirth-section {
+    padding: 0px 165px 0px 165px;
+  }
+  .first-description {
+    flex-direction: row;
+  }
+  .dsc-main {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .logo-descr {
+    margin-top: 162px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    background: hsla(201, 11%, 66%, 0.5);
+  }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 97px;
+    margin: 0;
+  }
+  .footer-first-div {
+    flex-direction: row;
+    gap: 135px;
+    align-items: center;
+  }
+  .second-image {
+    width: 706px;
+    height: 471px;
+  }
+}
